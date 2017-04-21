@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e -o pipefail
+
 echo "------------- Start to build ContainerFS -------------"
 
 if [ ! -d "./output" ]; then
@@ -17,7 +20,7 @@ done
 for dir in client fuseclient metanode datanode volmgr
 do
   pushd $dir
-  go get
+#  go get
   go build -o cfs-$dir main.go
   cp cfs-$dir $dir.ini ../output
   popd
