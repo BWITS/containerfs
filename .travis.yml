@@ -15,6 +15,4 @@ before_install:
   - go get -u github.com/coreos/etcd/cmd/etcd
 
 script:
-  - pwd
-  - env |grep -i GO
-  - bash -x ./make.sh
+  - make build
