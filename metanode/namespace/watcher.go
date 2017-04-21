@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"github.com/coreos/etcd/clientv3"
-	mp "../../proto/mp"
-	vp "../../proto/vp"
-	"../../utils"
+	mp "github.com/bwits/containerfs/proto/mp"
+	vp "github.com/bwits/containerfs/proto/vp"
+	"github.com/bwits/containerfs/utils"
 	"golang.org/x/net/context"
 
 	"fmt"

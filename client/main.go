@@ -3,8 +3,8 @@ package main
 import (
 	"bufio"
 	"fmt"
-	fs "../fs"
-	"../utils"
+	fs "github.com/bwits/containerfs/fs"
+	"github.com/bwits/containerfs/utils"
 	"github.com/lxmgo/config"
 	"os"
 	"strconv"

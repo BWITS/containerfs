@@ -2,10 +2,10 @@ package namespace
 
 import (
 	"encoding/json"
-	"../../logger"
-	mp "../../proto/mp"
-	vp "../../proto/vp"
-	"../../utils"
+	"github.com/bwits/containerfs/logger"
+	mp "github.com/bwits/containerfs/proto/mp"
+	vp "github.com/bwits/containerfs/proto/vp"
+	"github.com/bwits/containerfs/utils"
 	"strconv"
 	"time"
 )

@@ -16,10 +16,10 @@ import (
 	"golang.org/x/net/context"
 	//"math/rand"
 
-	cfs "../fs"
-	"../logger"
-	mp "../proto/mp"
-	//	"../utils"
+	cfs "github.com/bwits/containerfs/fs"
+	"github.com/bwits/containerfs/logger"
+	mp "github.com/bwits/containerfs/proto/mp"
+	//	"github.com/bwits/containerfs/utils"
 )
 
 var uuid string

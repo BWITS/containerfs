@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"../logger"
+	"github.com/bwits/containerfs/logger"
 
-	ns "./namespace"
-	mRaft "./raft"
-	mp "../proto/mp"
+	ns "github.com/bwits/containerfs/metanode/namespace"
+	mRaft "github.com/bwits/containerfs/metanode/raft"
+	mp "github.com/bwits/containerfs/proto/mp"
 
 	"github.com/lxmgo/config"
 	"golang.org/x/net/context"

@@ -3,7 +3,7 @@ package utils
 import (
 	"errors"
 	"github.com/coreos/etcd/clientv3"
-	"../logger"
+	"github.com/bwits/containerfs/logger"
 	"golang.org/x/net/context"
 )
 
